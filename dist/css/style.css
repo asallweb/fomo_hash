@@ -117,7 +117,8 @@ h6 {
   color: #00ff36;
   transition: all .3s ease-in-out
 }
-.menu__link._active {
+.menu__link._active,
+.menu__link._navigator-active {
   font-weight: 700;
   color: #fff
 }
@@ -654,6 +655,7 @@ body {
 .benchmark .progress-bar {
   background: url(../img/backgrounds/progress-bar.webp) 0 0 repeat;
   height: 100%;
+  width: 0;
   transition: width .3s ease
 }
 .benchmark #results h3 {
@@ -671,7 +673,7 @@ body {
 }
 .benchmark .result-label {
   color: #00ff36;
-  flex: 0 1 150px;
+  flex: 0 1 180px;
   font-size: 16px
 }
 .benchmark .result-bar-container {
@@ -681,7 +683,7 @@ body {
   height: 40px;
   position: relative;
   overflow: hidden;
-  flex: 0 1 calc(100% - 150px)
+  flex: 0 1 calc(100% - 180px)
 }
 .benchmark .result-bar {
   background: url(../img/backgrounds/progress-bar.webp) 0 0 repeat #000;

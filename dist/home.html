@@ -6,13 +6,13 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241229140730">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241229160807">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&display=swap&_v=20241229140730" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&display=swap&_v=20241229160807" rel="stylesheet">
 </head>
 
 <body>
@@ -27,11 +27,11 @@
 							<img src="img/content/rabbit.svg" class="header__menu-img">
 						</div>
 						<ul class="menu__list">
-							<li class="menu__item"><a href="" class="menu__link _active">system_overview></a></li>
-							<li class="menu__item"><a href="" class="menu__link">reward_mechanics></a></li>
-							<li class="menu__item"><a href="" class="menu__link">roadmap></a></li>
-							<li class="menu__item"><a href="" class="menu__link">data_dashboard></a></li>
-							<li class="menu__item"><a href="" class="menu__link">contact_node></a></li>
+							<li class="menu__item"><a href="" class="menu__link" data-goto="#system_overview" data-goto-top="180">system_overview></a></li>
+							<li class="menu__item"><a href="" class="menu__link" data-goto="#reward_mechanics" data-goto-top="180">reward_mechanics></a></li>
+							<li class="menu__item"><a href="" class="menu__link" data-goto="#roadmap" data-goto-top="180">roadmap></a></li>
+							<li class="menu__item"><a href="" class="menu__link" data-goto="#data_dashboard" data-goto-top="180">data_dashboard></a></li>
+							<li class="menu__item"><a href="" class="menu__link" data-goto="#contact_node" data-goto-top="180">contact_node></a></li>
 						</ul>
 						<a href="" class="header__menu-telegram">
 							<svg width="22" height="18">
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="system">
+			<section class="system" id="system_overview" data-watch="navigator">
 				<div class="__container">
 					<div class="system__title title-h2">
 						System_Overview
@@ -207,7 +207,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="rewards">
+			<section class="rewards" id="reward_mechanics" data-watch="navigator">
 				<div class="__container">
 					<div class="rewards__title title-h2">
 						Reward_Mechanics
@@ -238,7 +238,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="roadmap">
+			<section class="roadmap" id="roadmap" data-watch="navigator">
 				<div class="__container">
 					<div class="roadmap__title title-h2">
 						Roadmap
@@ -261,7 +261,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="dashboard">
+			<section class="dashboard" id="data_dashboard" data-watch="navigator">
 				<div class="__container">
 					<div class="dashboard__title title-h2">
 						Data_Dashboard
@@ -317,7 +317,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="contact">
+			<section class="contact" id="contact_node" data-watch="navigator">
 				<div class="__container">
 					<div class="contact__title title-h2">
 						Contact_Node
@@ -348,7 +348,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241229140730"></script>
+	<script src="js/app.min.js?_v=20241229160807"></script>
 </body>
 
 </html>
