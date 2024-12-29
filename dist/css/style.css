@@ -675,7 +675,7 @@ body {
   font-size: 16px
 }
 .benchmark .result-bar-container {
-  background: url(../img/backgrounds/progress-container.webp) 0 0 repeat;
+  background: url(../img/backgrounds/progress-container.webp) 0 0 repeat #000;
   flex: 1;
   min-width: 188px;
   height: 40px;
@@ -684,7 +684,7 @@ body {
   flex: 0 1 calc(100% - 150px)
 }
 .benchmark .result-bar {
-  background: url(../img/backgrounds/progress-bar.webp) 0 0 repeat;
+  background: url(../img/backgrounds/progress-bar.webp) 0 0 repeat #000;
   height: 100%;
   transition: width 1s ease-in-out
 }
@@ -761,13 +761,13 @@ body {
   font-size: 14px
 }
 .benchmark .comparison-bar-container {
-  background: url(../img/backgrounds/comparison-bar-container.webp) 0 0 repeat;
+  background: url(../img/backgrounds/comparison-bar-container.webp) 0 0 repeat #000;
   height: 30px;
   overflow: hidden;
   width: 100%
 }
 .benchmark .comparison-bar {
-  background: url(../img/backgrounds/comparison-bar.webp) 0 0 repeat;
+  background: url(../img/backgrounds/comparison-bar.webp) 0 0 repeat #000;
   height: 100%;
   transition: width .5s ease-in-out
 }
