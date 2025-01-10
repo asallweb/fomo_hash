@@ -762,16 +762,25 @@ body {
   color: #fff;
   font-size: 14px
 }
+.benchmark .comparison-item.highlight .cpu-name {
+  color: #00ff36
+}
 .benchmark .comparison-bar-container {
   background: url(../img/backgrounds/comparison-bar-container.webp) 0 0 repeat #000;
   height: 30px;
   overflow: hidden;
   width: 100%
 }
+.benchmark .comparison-item.highlight .comparison-bar-container {
+  background: url(../img/backgrounds/progress-container.webp) 0 0 repeat #000
+}
 .benchmark .comparison-bar {
   background: url(../img/backgrounds/comparison-bar.webp) 0 0 repeat #000;
   height: 100%;
   transition: width .5s ease-in-out
+}
+.benchmark .comparison-item.highlight .comparison-bar {
+  background: url(../img/backgrounds/progress-bar.webp) 0 0 repeat #000
 }
 .benchmark .comparison-score {
   position: absolute;
@@ -780,6 +789,9 @@ body {
   color: #fff;
   font-size: 14px;
   z-index: 1
+}
+.benchmark .comparison-item.highlight .comparison-score {
+  color: #00ff36
 }
 @media (min-width:78.25em) {
   .header__home {
