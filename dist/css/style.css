@@ -591,7 +591,7 @@ body {
 }
 .dashboard__row {
   display: flex;
-  background: url(../img/backgrounds/dashboard__board.webp) 0 0/100% 100% no-repeat
+  justify-content: center
 }
 .dashboard__column {
   display: flex;
@@ -1355,8 +1355,7 @@ body {
     left: -15px
   }
   .dashboard__row {
-    flex-direction: column;
-    background: url(../img/backgrounds/dashboard__board-mobile.webp) 0 0/100% 100% no-repeat
+    flex-direction: column
   }
   .contact__row {
     flex-direction: column;
